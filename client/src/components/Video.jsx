@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react"
 import './Video.css'
+import VideoFooter from "./VideoFooter"
 
 const Video = () => {
     const[playing, setPlaying] = useState(false)
@@ -26,6 +27,7 @@ v1608169738/video1_cvrjfm.mp4"
             onClick={handleVideoPress}
             >
             </video>
+            <VideoFooter />
         </div>
     )
 }
