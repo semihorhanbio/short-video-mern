@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Video from './components/Video'
 import './App.css'
 
