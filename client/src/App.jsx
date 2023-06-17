@@ -1,13 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import Video from './components/Video'
 import './App.css'
 
 function App() {
 
   return (
-    <>
-      <h1>Short Video App MERN</h1>
-    </>
+    <div className='app'> 
+      <div className='app__videos'>
+        <Video /> 
+        <Video /> 
+      </div>
+    </div>
   )
 }
 
